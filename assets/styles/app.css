@@ -1,0 +1,25 @@
+body {
+    background-color: lightgray;
+}
+a{
+    text-decoration: none;
+}
+.alert{
+    margin-top: 10px;
+}
+main{
+    padding-top: 20px;
+}
+.table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table > thead > tr {
+    border-bottom: 1px solid black;
+}
+
+.table > tbody > tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,4 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+<div {{ vue_component('Favourites', { 'items': fruits, 'fields': fields }) }}></div>
+{% endblock %}
